@@ -1,0 +1,105 @@
+/*   ESTILOS GENERALES */
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CUERPO DE LA PÁGINA */
+
+body{
+    background: #e5e5e5;
+    padding: 20px;
+}
+
+/*    CONTENEDOR PRINCIPAL */
+
+.contenedor{
+    width: 800px;
+    margin: auto;
+    background: white;
+    border: 1px solid #999;
+    padding: 15px;
+}
+
+/*  CABECERA */
+
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.foto{
+    width: 100px;
+    height: 120px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*    FIELDSET Y LEGEND */
+
+fieldset{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+legend{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*  FILAS Y COLUMNAS */
+
+.fila{
+    display: flex;
+    gap: 40px;         /* Espacio entre columnas */
+    margin-bottom: 15px;
+}
+
+.grupo{
+    flex: 1;
+}
+
+/* ETIQUETAS */
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* CAMPOS DE TEXTO */
+
+input,
+textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #999;
+}
+
+/* ÁREAS DE TEXTO */
+
+textarea{
+    resize: none;
+}
+
+/* PIE DEL CURRÍCULUM */
+
+.pie{
+    margin-top: 20px;
+}
+
+.pie p{
+    margin-bottom: 15px;
+}
