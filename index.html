@@ -1,178 +1,105 @@
-<!-- Indica que el documento está escrito en HTML5 -->
 <!DOCTYPE html>
-
-<!-- Elemento raíz de la página. lang="es" indica que el idioma es español -->
 <html lang="es">
-
 <head>
-
-    <!-- Permite mostrar caracteres especiales como á, é, ñ, etc. -->
     <meta charset="UTF-8">
-
-    <!-- Título que aparece en la pestaña del navegador -->
-    <title>Curriculum Vitae</title>
-
-    <!-- Vincula la hoja de estilos externa -->
+     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="estilos.css">
-
 </head>
 
-
 <body>
-
-    <!-- Contenedor principal que agrupa todo el contenido -->
-    <div class="contenedor">
-
-        <!-- Encabezado del CV -->
+     <div class="contenedor">
         <div class="cabecera">
-
-            <!-- Título principal -->
-            <div class="titulo">
+              <div class="titulo">
                 CURRICULUM VITAE
             </div>
 
-            <!-- Espacio destinado para la fotografía -->
             <div class="foto">
                 <img src="imagen.jpg" alt="Foto del postulante">
             </div>
 
         </div>
 
-        <!-- Inicio del formulario -->
         <form>
 
-            <!-- Agrupa los campos de datos personales -->
             <fieldset>
-
-                <!-- Título del grupo de campos -->
                 <legend>DATOS PERSONALES</legend>
-
-                <!-- Primera fila -->
                 <div class="fila">
-
                     <div class="grupo">
-
-                        <!-- Etiqueta descriptiva -->
                         <label>Apellidos</label>
-
-                        <!-- Campo de texto -->
                         <input type="text">
-
                     </div>
 
                     <div class="grupo">
-
                         <label>Nombre</label>
-
                         <input type="text">
-
                     </div>
-
                 </div>
 
-                <!-- Segunda fila -->
                 <div class="fila">
 
                     <div class="grupo">
-
                         <label>DNI</label>
-
                         <input type="text">
-
                     </div>
-
+                    
                     <div class="grupo">
-
                         <label>Lugar</label>
-
                         <input type="text">
-
                     </div>
 
                 </div>
 
-                <!-- Tercera fila -->
                 <div class="fila">
 
                     <div class="grupo">
-
                         <label>Fecha de Nacimiento</label>
-
-                        <!-- Campo para seleccionar fecha -->
                         <input type="date">
-
                     </div>
 
                     <div class="grupo">
-
                         <label>Provincia</label>
-
                         <input type="text">
-
                     </div>
 
                 </div>
 
-                <!-- Cuarta fila -->
                 <div class="fila">
-
                     <div class="grupo">
-
                         <label>Dirección</label>
-
                         <input type="text">
-
                     </div>
 
                     <div class="grupo">
-
                         <label>Localidad</label>
-
                         <input type="text">
-
                     </div>
 
                 </div>
 
-                <!-- Quinta fila -->
                 <div class="fila">
-
                     <div class="grupo">
-
                         <label>Teléfono</label>
-
-                        <!-- Campo para números telefónicos -->
                         <input type="tel">
-
                     </div>
 
                     <div class="grupo">
-
                         <label>Teléfono Móvil</label>
-
                         <input type="tel">
-
                     </div>
 
                 </div>
 
-                <!-- Sexta fila -->
                 <div class="fila">
 
                     <div class="grupo">
-
                         <label>E-mail</label>
-
-                        <!-- Campo para correos electrónicos -->
                         <input type="email">
-
                     </div>
 
                 </div>
 
             </fieldset>
 
-            <!-- Agrupa los datos académicos -->
             <fieldset>
 
                 <legend>FORMACIÓN Y ESTUDIOS</legend>
@@ -194,12 +121,10 @@
 
                 <label>Cursos y Seminarios</label>
 
-                <!-- Área de texto para información extensa -->
                 <textarea rows="4"></textarea>
 
             </fieldset>
 
-            <!-- Agrupa la experiencia laboral -->
             <fieldset>
 
                 <legend>EXPERIENCIA PROFESIONAL</legend>
@@ -211,7 +136,6 @@
 
                 <label>Fecha</label>
 
-                <!-- Permite seleccionar mes y año -->
                 <input type="month">
 
                 <br><br>
@@ -222,7 +146,6 @@
 
             </fieldset>
 
-            <!-- Agrupa información adicional -->
             <fieldset>
 
                 <legend>DATOS COMPLEMENTARIOS</legend>
@@ -231,10 +154,8 @@
 
             </fieldset>
 
-            <!-- Pie del documento -->
             <div class="pie">
 
-                <!-- Texto informativo -->
                 <p>
                     Todo lo expuesto anteriormente podrá ser acreditado,
                     en caso de solicitud.
